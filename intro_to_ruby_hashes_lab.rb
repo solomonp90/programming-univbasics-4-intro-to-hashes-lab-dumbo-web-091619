@@ -1,6 +1,8 @@
-def new_hash(key,value)
+def new_hash
   # return an empty hash
- {}
+{
+  
+}
 end
 
 
