@@ -42,6 +42,9 @@ def update_counting_hash(hash, key)
   # given a hash and a key as parameters, return an updated hash
   # if the provided key is not present in the hash, add it and assign it to the value of 1
   # if the provided key is present, increment its value by 1
+hash = 'hello'
+
+
 hash[key]
 end
 
@@ -51,3 +54,18 @@ end
 # else
 #   shipping_manifest["top hat"] = 1
 # end
+
+
+
+
+
+
+
+
+
+#
+# 1) updating data in a hash update_counting_hash if key is not present, returns a hash with the provided key assigned to the value of 1
+#      Failure/Error: expect(update_counting_hash({},'hello')).to eq({'hello' => 1})
+#        expected: {"hello"=>1}
+#             got: nil
+#        (compared using ==)
