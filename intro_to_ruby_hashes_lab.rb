@@ -48,7 +48,7 @@ if hash[key]
 else
   hash[key]=1
 end
-hash[key]
+
 # if shipping_manifest["top hat"]
 #   shipping_manifest["top hat"] += 1
 # else
