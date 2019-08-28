@@ -45,6 +45,7 @@ def update_counting_hash(hash, key)
 hash[key]
 end
 
+#expected: {"hello"=>1}
 # if shipping_manifest["top hat"]
 #   shipping_manifest["top hat"] += 1
 # else
