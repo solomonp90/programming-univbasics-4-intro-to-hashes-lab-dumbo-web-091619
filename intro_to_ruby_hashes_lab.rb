@@ -47,5 +47,5 @@ if hash[key]
   hash[key]+=1
 else
 
-  hash [key]+= "hello"
+  puts "hello"
 end
