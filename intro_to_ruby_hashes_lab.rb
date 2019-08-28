@@ -1,4 +1,4 @@
-def new_hash
+def new_hash(new_hash)
   # return an empty hash
 new_hash = []
   new_hash[]
