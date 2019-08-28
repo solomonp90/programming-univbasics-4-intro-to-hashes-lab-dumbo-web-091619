@@ -30,7 +30,7 @@ def my_hash_creator(key, value)
   my_hash_creator = {
        key:value
   }
-  my_hash_creator[name:]
+  my_hash_creator[name]
 end
 
 
