@@ -45,7 +45,7 @@ def update_counting_hash(hash, key)
 hash.default = 1
 hash[key]
 if hash[:hello]
-  hash+=1
+  
 
 end
 end
