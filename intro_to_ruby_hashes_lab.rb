@@ -48,7 +48,7 @@ if hash[key]
   hash[key]=+1
 hash
 else
-hash [hello] = 1
+hash [:hello] = 1
 #hash.default
 end
 end
