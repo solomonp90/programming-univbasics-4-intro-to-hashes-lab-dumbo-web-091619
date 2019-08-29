@@ -45,8 +45,13 @@ end
 
 
 def update_counting_hash(hash, key)
-#if hash[:hello]
 hash[key]
+#if hash[:hello]
+if hash[:hello]
+
+end
+
+
 
 end
 
