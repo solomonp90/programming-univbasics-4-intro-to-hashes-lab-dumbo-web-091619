@@ -50,7 +50,8 @@ hash[key]
 if hash[:hello]
   hash[key]+=1
 
-end
+else
+
 
 
 
