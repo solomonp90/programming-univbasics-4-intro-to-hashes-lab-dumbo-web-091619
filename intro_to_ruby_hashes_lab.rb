@@ -49,7 +49,6 @@ if hash[:hello]
 else
 hash.default
 end
-end
 
 #expected: {"hello"=>1}
 
