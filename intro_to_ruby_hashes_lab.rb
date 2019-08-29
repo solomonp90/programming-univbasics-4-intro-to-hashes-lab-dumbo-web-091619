@@ -50,8 +50,8 @@ hash[key]
 if hash[:hello]
   hash[key]+=1
 else
-hash[key] = 1
-hash[key] = {"hello"=>1}
+hash[:hello] = 1
+
 end
 end
 
