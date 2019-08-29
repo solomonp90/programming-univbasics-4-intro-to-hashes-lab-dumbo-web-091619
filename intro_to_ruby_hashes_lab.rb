@@ -53,6 +53,7 @@ else
 hash[:key] = 1
 # person[:hometown] = "Brooklyn, NY"
 end
+hash
 end
 
 #expected: {"hello"=>1}
