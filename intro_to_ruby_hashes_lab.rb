@@ -47,7 +47,7 @@ if hash[key]
   #hash[key]= 1
   hash[key]=+1
 else
-hash [key] = {key=>1}
+hash [key] = {key=>1,key=>5}
 #hash.default
 end
 end
