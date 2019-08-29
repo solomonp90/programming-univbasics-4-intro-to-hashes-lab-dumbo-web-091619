@@ -53,6 +53,7 @@ else
 hash [key] += 1
 #hash.default
 end
+hash
 end
 
 #expected: {"hello"=>1}
