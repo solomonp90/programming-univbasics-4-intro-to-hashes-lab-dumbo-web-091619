@@ -47,10 +47,10 @@ end
 def update_counting_hash(hash, key)
 hash[key]
 #if hash[:hello]
-if hash[:hello]
-  hash[key]+=1
+if hash[key]
+  hash[:hello]+=1
 else
-hash[:hello] = 1
+hash[key] = 1
 
 end
 end
