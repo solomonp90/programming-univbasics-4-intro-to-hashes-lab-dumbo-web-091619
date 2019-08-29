@@ -52,7 +52,7 @@ if hash[:hello]
 
 else
 
-
+hash[key]
 
 
 end
