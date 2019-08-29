@@ -50,7 +50,9 @@ hash[key]
 if hash[:hello]
   hash[key]+=1
 else
-hash[:hello] = 1
+hash[:hello] = hash{
+  hello:1
+}
 
 end
 end
