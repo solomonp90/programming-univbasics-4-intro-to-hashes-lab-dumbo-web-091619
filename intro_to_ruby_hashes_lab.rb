@@ -49,12 +49,9 @@ hash[key]
 #if hash[:hello]
 if hash[:hello]
   hash[key]+=1
-
 else
-
 hash[key] = 1
-
-
+end
 end
 
 #expected: {"hello"=>1}
