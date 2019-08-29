@@ -46,8 +46,8 @@ hash.default = 1
 hash[key]
 if hash[:hello]
   hash[:hello]+=1
-
-
+else
+hash.default
 end
 end
 
