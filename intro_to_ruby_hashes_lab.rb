@@ -50,7 +50,7 @@ else
  hash[key]=1
 #hash.default
 end
-
+end
 
 #expected: {"hello"=>1}
 
