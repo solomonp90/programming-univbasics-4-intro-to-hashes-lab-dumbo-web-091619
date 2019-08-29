@@ -44,7 +44,7 @@ end
   # if the provided key is present, increment its value by 1
 
 
-def update_counting_hash(hash, key
+def update_counting_hash(hash, key)
 #if hash[:hello]
 if hash[key]
   #hash[key]= 1
